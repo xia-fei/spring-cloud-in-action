@@ -1,0 +1,41 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.mvn
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+.gitignore
+README.md
+all-action/.gitignore
+all-action/.mvn/
+all-action/mvnw
+all-action/mvnw.cmd
+all-action/pom.xml
+all-action/src/
+config-center/.gitignore
+config-center/.mvn/
+config-center/mvnw
+config-center/mvnw.cmd
+config-center/pom.xml
+config-center/src/
+pom.xml
