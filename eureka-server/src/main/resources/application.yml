@@ -1,11 +1,24 @@
-server:
-  port: 8761
-
+---
+spring:
+  profiles: peer1
 eureka:
-  instance:
-    hostname: localhost
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:1001/eureka/
+
+  instance:
+    prefer-ip-address: true
+server:
+  port: 1000
+---
+spring:
+  profiles: peer2
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/
+
+  instance:
+    prefer-ip-address: true
+server:
+  port: 1001
