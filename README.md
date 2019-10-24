@@ -33,6 +33,6 @@ Host github.com
 HostName github.com
 IdentityFile ~/.ssh/github.pem
 ```
-它需要通过spring.cloud.config.server.git.uri里的host去匹配 config文件里的Host 用IdentityFile做ssh登陆
+它会通过spring.cloud.config.server.git.uri里的host去匹配 config文件里的Host 用IdentityFile做ssh登陆
 官网是这么写的
 If you do not use HTTPS and user credentials, SSH should also work out of the box when you store keys in the default directories (~/.ssh) and the  URI points to an SSH location, such as git@github.com:configuration/cloud-configuration
