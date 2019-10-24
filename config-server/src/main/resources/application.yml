@@ -1,10 +1,14 @@
-server:
-  port: 2000
-
-
 spring:
   cloud:
     config:
       server:
         git:
           uri: git@github.com:xia-fei/git-learn.git
+  application:
+    name: config-server
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/,http://localhost:1001/eureka/

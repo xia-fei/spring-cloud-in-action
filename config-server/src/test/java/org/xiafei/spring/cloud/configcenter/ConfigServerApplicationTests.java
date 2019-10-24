@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.io.File;
 
 
-public class ConfigCenterApplicationTests {
+public class ConfigServerApplicationTests {
 
     @Test
     public void contextLoads() throws GitAPIException {

@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: EurekaServer
+
 ---
 spring:
   profiles: peer1

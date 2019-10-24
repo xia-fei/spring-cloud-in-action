@@ -12,6 +12,8 @@ Zuul 5000,5001  网关服务 转发路径 /user/SayHello
 
 
 # 问题解决
+## 通用问题
+有时application.yml文件没生效。尝试 mvn clean
 ## configServer
 ### 问题1 ssh连接方式 reject HostKey
 Ant com.jcraft.jsch.JSchException: reject HostKey
