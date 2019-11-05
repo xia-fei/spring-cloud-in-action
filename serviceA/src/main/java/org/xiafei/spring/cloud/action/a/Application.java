@@ -1,12 +1,12 @@
-package org.xiafei.spring.cloud.action;
+package org.xiafei.spring.cloud.action.a;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceAApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceAApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
