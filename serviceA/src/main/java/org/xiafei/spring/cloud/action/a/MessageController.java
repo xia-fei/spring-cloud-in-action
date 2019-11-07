@@ -5,13 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MessageController  {
+public class MessageController {
     @Value("${name}")
     private String name;
+    @Value("${server.port}")
+    private int port;
 
     @RequestMapping("/name")
-    public String message(){
-        return name ;
+    public String message() {
+        return "我是"+name +"我的端口"+ port;
     }
 
 }

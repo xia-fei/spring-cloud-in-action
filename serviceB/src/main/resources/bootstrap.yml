@@ -16,3 +16,12 @@ spring:
     name: serviceB
   profiles:
     active: dev
+
+feign:
+  hystrix:
+    enabled: true
+
+
+
+eureka.client.registryFetchIntervalSeconds: 1
+ribbon.ServerListRefreshInterval: 1000
