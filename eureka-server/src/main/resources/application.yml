@@ -2,8 +2,7 @@ spring:
   application:
     name: EurekaServer
 
-eureka.server.use-read-only-response-cache: false
-eureka.server.eviction-interval-timer-in-ms: 3000
+
 
 ---
 spring:

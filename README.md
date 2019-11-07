@@ -49,6 +49,9 @@ EurekaClient->Ribbon:  ribbon.ServerListRefreshInterval
 
 EurekaClient->EurekaServer: 心跳eureka.instance.lease-renewal-interval-in-seconds
 
+参考文档  
+[https://blog.csdn.net/weixin_45132238/article/details/93617754](https://blog.csdn.net/weixin_45132238/article/details/93617754)
+
 ## 重试解决 服务发布时错误问题
 ribbon.OkToRetryOnAllOperations:true 
 #(是否所有操作都重试，若false则仅get请求重试)
